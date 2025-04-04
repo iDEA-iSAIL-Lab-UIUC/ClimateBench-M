@@ -1,0 +1,13 @@
+model:
+  cl_decay_steps: 2000
+  filter_type: dual_random_walk
+  horizon: 24
+  input_dim: 45
+  l1_decay: 0
+  max_diffusion_step: 2
+  num_nodes: 238
+  num_rnn_layers: 2
+  output_dim: 45
+  rnn_units: 64
+  seq_len: 24
+  use_curriculum_learning: true
