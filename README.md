@@ -15,7 +15,7 @@
 ## 📦 Dataset Download
 To facilitate broad accessibility and reproducibility, **ClimateBench-M** is hosted on [🤗 Hugging Face Datasets](https://huggingface.co/docs/datasets/index). Due to its size and multi-modal nature, the dataset is split into two parts:
 
-- [**ClimateBench-M-TS**](https://huggingface.co/datasets/Violet24K/ClimateBench-M-TS): Climate time-series with extreme weather event aligned and labeled.
+- [**ClimateBench-M-TS**](https://huggingface.co/datasets/Violet24K/ClimateBench-M-TS): Climate time series with extreme events aligned and labeled.
 - [**ClimateBench-M-IMG**](https://huggingface.co/datasets/Violet24K/ClimateBench-M-IMG): Satellite imagery data
 
 This separation allows users to download only the modalities relevant to their tasks. To download, please ensure you have the Hugging Face CLI installed:
@@ -93,7 +93,7 @@ pip install numpy==1.24.0
 ```
 For more details of the installed packages, please refer to [PyTorch](https://pytorch.org/get-started/locally/), [openmim](https://openmim.readthedocs.io/en/latest/installation.html), [MMCV](https://mmcv.readthedocs.io/en/latest/get_started/installation.html), and [MMSegmentation](https://mmsegmentation.readthedocs.io/en/latest/). Note: The original NASA IMPACT repo uses mmcv 1.x and mmsegmentation 0.x. While these are older versions, upgrading to newer releases like mmcv 2.x requires significant changes due to the introduction of [MMEngine](https://mmengine.readthedocs.io/en/latest/).
 
-### Data Split
+### 📂 Data Split
 ClimateBench-M-IMG provides raw satellite image data by default for maximal flexibility. To generate train/validation splits and prepares inputs for model,
 ```sh
 # in working directory Task/crop_segmentation/SGM_Image
@@ -119,7 +119,7 @@ mim test mmsegmentation configs/multi_temporal_crop_classification.py \
     --checkpoint path_to_checkpoint_model.pth --eval "mIoU"
 ```
 
-## Cite
+## 📖 Cite
 If you find this repository useful in your research, please consider citing the following paper:
 ```
 @inproceedings{DBLP:conf/kdd/ZhengJLTH24,
