@@ -2,7 +2,7 @@
 
 <img src="assets\climatebench-m-overview.png">
 
-|[**🗺️ Climate Time Series Data**](https://huggingface.co/datasets/Violet24K/ClimateBench-M-TS) | [**🛰️ Satellite Image Data**](https://huggingface.co/datasets/Violet24K/ClimateBench-M-IMG) | [**📖 Paper**](https://arxiv.org/abs/2404.00225) |
+|[**🗺️ Climate Time Series Data**](https://huggingface.co/datasets/Violet24K/ClimateBench-M-TS) | [**🛰️ Satellite Image Data**](https://huggingface.co/datasets/Violet24K/ClimateBench-M-IMG) | [**📖 Paper**](https://arxiv.org/abs/2504.07394) |
 
 **ClimateBench-M** is the first **multi-modal climate benchmark** designed to support the development of artificial general intelligence (AGI) in climate applications. It aligns data across three critical modalities at a unified spatio-temporal resolution:
 
